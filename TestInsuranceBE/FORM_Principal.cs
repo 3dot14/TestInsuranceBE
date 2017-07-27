@@ -76,5 +76,11 @@ namespace TestInsuranceBE
 			FORM_Reports fr = new FORM_Reports();
 			fr.Show();
 		}
-	}
+
+        private void BOTON_TestCsvInsurer_Click(object sender, EventArgs e)
+        {
+            FORM_CsvInsurer frm = new FORM_CsvInsurer();
+            frm.ShowDialog();
+        }
+    }
 }

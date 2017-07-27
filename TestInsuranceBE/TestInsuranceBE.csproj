@@ -78,6 +78,12 @@
     <Compile Include="FORM_Clients.Designer.cs">
       <DependentUpon>FORM_Clients.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORM_CsvInsurer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CsvInsurer.Designer.cs">
+      <DependentUpon>FORM_CsvInsurer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORM_FolioGenerate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FORM_Clients.resx">
       <DependentUpon>FORM_Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CsvInsurer.resx">
+      <DependentUpon>FORM_CsvInsurer.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORM_FolioGenerate.resx">
       <DependentUpon>FORM_FolioGenerate.cs</DependentUpon>
