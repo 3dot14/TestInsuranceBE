@@ -148,13 +148,19 @@ namespace TestInsuranceBE
         private void BUTTON_ValidateUser_Click(object sender, EventArgs e)
         {
             InsuranceBE.Users Usuario = new InsuranceBE.Users();
-            Usuario.ValidateRolExist(TEXTBOX_ConnectionString.Text, TEXTBOX_UserName.Text);
+            int TestPoint1 = Usuario.ValidateUserExist(TEXTBOX_ConnectionString.Text, TEXTBOX_UserName.Text);
         }
 
         private void BUTTON_ValidateUserPassword_Click(object sender, EventArgs e)
         {
             InsuranceBE.Users Usuario = new InsuranceBE.Users();
-            Usuario.ValidateUserPassword(TEXTBOX_ConnectionString.Text,TEXTBOX_UserName.Text,TEXTBOX_Password.Text);
+           int TestPoint = Usuario.ValidateUserPassword(TEXTBOX_ConnectionString.Text,TEXTBOX_UserName.Text,TEXTBOX_Password.Text);
+        }
+
+        private void BUTTON_SignIn_Click(object sender, EventArgs e)
+        {
+            InsuranceBE.Users Usuario = new InsuranceBE.Users();
+           int TestPoint2 = Usuario.ValidateUserPassword(TEXTBOX_ConnectionString.Text,TEXTBOX_UserName.Text,TEXTBOX_Password.Text);
         }
     }
 }

@@ -46,13 +46,13 @@ namespace TestInsuranceBE
             System.Type typeInt32 =
         System.Type.GetType("System.Int32");
 
-       
-          
-            Dt.Columns.Add("DESCRIPCION");
+			DataColumn Column = new DataColumn();
+
+			Dt.Columns.Add("DESCRIPCION");
             Dt.Columns.Add("LME");
             Dt.Columns.Add("MAX_MOUNT");
-            Dt.Columns.Add("Cond.",typeof(Int32));
-            Dt.Columns.Add("[S.A. Maxima]");
+            Dt.Columns.Add("Cond", typeInt32);
+            Dt.Columns.Add("[SA_Maxima]");
             Dt.Columns.Add("Gpo de Giro",typeInt32);
             Dt.Columns.Add("Giro");
             Dt.Columns.Add("MENSAJE");
@@ -62,27 +62,19 @@ namespace TestInsuranceBE
             row["DESCRIPCION"] ="PruebaCil";
             row["LME"] ="tres";
             row["MAX_MOUNT"] ="CUATRO";
-            row["Cond."] =50;
-            row["[S.A. Maxima]"] ="text";
+            row["Cond"] = 50;
+            row["[SA_Maxima]"] ="text";
             row["Gpo de Giro"] = 2;
             row["Giro"] ="Solutions";
             row["Mensaje"] ="Ninguno";
             Dt.Rows.Add(row);
 
-            row = Dt.NewRow();
-            
-            row["DESCRIPCION"] = "PruebaCilantro";
-            row["LME"] = "cuatro";
-            row["MAX_MOUNT"] = "CINCO";
-            row["Cond."] = 20;
-            row["[S.A. Maxima]"] = "text";
-            row["Gpo de Giro"] = 5;
-            row["Giro"] = "Sol";
-            row["Mensaje"] = "Alguno";
-            Dt.Rows.Add(row);
+     
+      
+			Dt.AcceptChanges();
 
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.InsertCsvInsurer( (int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text),Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text),Dt );
+            insurer.InsertCsvInsurer( (int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), Dt );
         }
 
         private void BUTTON_InsertInsurer_Click(object sender, EventArgs e)

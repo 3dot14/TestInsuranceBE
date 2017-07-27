@@ -39,7 +39,7 @@
     </Reference>
     <Reference Include="InsuranceBE, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\InsuranceBE.dll</HintPath>
+      <HintPath>..\..\..\..\Desktop\Insurance-Container\20-07-2017\InsuranceBE_20-07-2017\InsuranceBE\bin\Debug\InsuranceBE.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -60,11 +60,35 @@
     <Compile Include="FORM_Associates.Designer.cs">
       <DependentUpon>FORM_Associates.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORM_Catalogs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_Catalogs.Designer.cs">
+      <DependentUpon>FORM_Catalogs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_CERTIFICATE_PDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_CERTIFICATE_PDF.Designer.cs">
+      <DependentUpon>FORM_CERTIFICATE_PDF.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORM_Clients.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FORM_Clients.Designer.cs">
       <DependentUpon>FORM_Clients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_FolioGenerate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_FolioGenerate.Designer.cs">
+      <DependentUpon>FORM_FolioGenerate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_InsuranceConfigs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_InsuranceConfigs.Designer.cs">
+      <DependentUpon>FORM_InsuranceConfigs.cs</DependentUpon>
     </Compile>
     <Compile Include="FORM_Insurers.cs">
       <SubType>Form</SubType>
@@ -78,6 +102,12 @@
     <Compile Include="FORM_Principal.Designer.cs">
       <DependentUpon>FORM_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FORM_Reports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_Reports.Designer.cs">
+      <DependentUpon>FORM_Reports.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORM_Users.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,14 +119,29 @@
     <EmbeddedResource Include="FORM_Associates.resx">
       <DependentUpon>FORM_Associates.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FORM_Catalogs.resx">
+      <DependentUpon>FORM_Catalogs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_CERTIFICATE_PDF.resx">
+      <DependentUpon>FORM_CERTIFICATE_PDF.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FORM_Clients.resx">
       <DependentUpon>FORM_Clients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_FolioGenerate.resx">
+      <DependentUpon>FORM_FolioGenerate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_InsuranceConfigs.resx">
+      <DependentUpon>FORM_InsuranceConfigs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORM_Insurers.resx">
       <DependentUpon>FORM_Insurers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORM_Principal.resx">
       <DependentUpon>FORM_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_Reports.resx">
+      <DependentUpon>FORM_Reports.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FORM_Users.resx">
       <DependentUpon>FORM_Users.cs</DependentUpon>

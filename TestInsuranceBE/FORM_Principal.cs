@@ -46,5 +46,35 @@ namespace TestInsuranceBE
             FORM_Clients fr = new FORM_Clients();
             fr.Show();
         }
-    }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FORM_CERTIFICATE_PDF fr = new FORM_CERTIFICATE_PDF();
+            fr.Show();
+        }
+
+		private void BUTTON_TestCatalogs_Click(object sender, EventArgs e)
+		{
+			FORM_Catalogs fr = new FORM_Catalogs();
+			fr.Show();
+		}
+
+		private void BUTTON_TestFolioGenerate_Click(object sender, EventArgs e)
+		{
+			FORM_FolioGenerate fr = new FORM_FolioGenerate();
+			fr.Show();
+		}
+
+		private void BUTTON_InsuranceConfig_Click(object sender, EventArgs e)
+		{
+			FORM_InsuranceConfigs fr = new FORM_InsuranceConfigs();
+			fr.Show();
+		}
+
+		private void BUTTON_TestReports_Click(object sender, EventArgs e)
+		{
+			FORM_Reports fr = new FORM_Reports();
+			fr.Show();
+		}
+	}
 }

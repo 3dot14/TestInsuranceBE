@@ -92,353 +92,399 @@
             this.BUTTON_ValidateRol = new System.Windows.Forms.Button();
             this.BUTTON_ValidateUser = new System.Windows.Forms.Button();
             this.BUTTON_ValidateUserPassword = new System.Windows.Forms.Button();
+            this.BUTTON_SignIn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.DATAGRIDVIEW_Users)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 39);
+            this.label1.Location = new System.Drawing.Point(91, 48);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(48, 17);
             this.label1.TabIndex = 0;
             this.label1.Text = "AppId:";
             // 
             // TEXTBOX_AppIdUsers
             // 
-            this.TEXTBOX_AppIdUsers.Location = new System.Drawing.Point(103, 36);
+            this.TEXTBOX_AppIdUsers.Location = new System.Drawing.Point(137, 44);
+            this.TEXTBOX_AppIdUsers.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_AppIdUsers.Name = "TEXTBOX_AppIdUsers";
-            this.TEXTBOX_AppIdUsers.Size = new System.Drawing.Size(41, 20);
+            this.TEXTBOX_AppIdUsers.Size = new System.Drawing.Size(53, 22);
             this.TEXTBOX_AppIdUsers.TabIndex = 1;
             this.TEXTBOX_AppIdUsers.Text = "1";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(144, 39);
+            this.label2.Location = new System.Drawing.Point(192, 48);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(41, 13);
+            this.label2.Size = new System.Drawing.Size(53, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "UserId:";
             // 
             // TEXTBOX_UserId
             // 
-            this.TEXTBOX_UserId.Location = new System.Drawing.Point(183, 36);
+            this.TEXTBOX_UserId.Location = new System.Drawing.Point(244, 44);
+            this.TEXTBOX_UserId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_UserId.Name = "TEXTBOX_UserId";
-            this.TEXTBOX_UserId.Size = new System.Drawing.Size(32, 20);
+            this.TEXTBOX_UserId.Size = new System.Drawing.Size(41, 22);
             this.TEXTBOX_UserId.TabIndex = 3;
             this.TEXTBOX_UserId.Text = "1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 13);
+            this.label3.Location = new System.Drawing.Point(16, 16);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 13);
+            this.label3.Size = new System.Drawing.Size(124, 17);
             this.label3.TabIndex = 4;
             this.label3.Text = "Connection String:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(279, 169);
+            this.label6.Location = new System.Drawing.Point(372, 208);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(60, 13);
+            this.label6.Size = new System.Drawing.Size(78, 17);
             this.label6.TabIndex = 7;
             this.label6.Text = "App Name:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(49, 169);
+            this.label7.Location = new System.Drawing.Point(65, 208);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(57, 13);
+            this.label7.Size = new System.Drawing.Size(74, 17);
             this.label7.TabIndex = 8;
             this.label7.Text = "Rol Name:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(50, 120);
+            this.label8.Location = new System.Drawing.Point(67, 148);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(56, 13);
+            this.label8.Size = new System.Drawing.Size(73, 17);
             this.label8.TabIndex = 9;
             this.label8.Text = "Password:";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(304, 39);
+            this.label9.Location = new System.Drawing.Point(405, 48);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(41, 13);
+            this.label9.Size = new System.Drawing.Size(50, 17);
             this.label9.TabIndex = 10;
             this.label9.Text = "RowId:";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(43, 197);
+            this.label11.Location = new System.Drawing.Point(57, 242);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(63, 13);
+            this.label11.Size = new System.Drawing.Size(83, 17);
             this.label11.TabIndex = 12;
             this.label11.Text = "Description:";
             // 
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(258, 120);
+            this.label12.Location = new System.Drawing.Point(344, 148);
+            this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(81, 13);
+            this.label12.Size = new System.Drawing.Size(104, 17);
             this.label12.TabIndex = 13;
             this.label12.Text = "New Password:";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(254, 94);
+            this.label13.Location = new System.Drawing.Point(339, 116);
+            this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(85, 13);
+            this.label13.Size = new System.Drawing.Size(110, 17);
             this.label13.TabIndex = 14;
             this.label13.Text = "New UserName:";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(43, 94);
+            this.label14.Location = new System.Drawing.Point(57, 116);
+            this.label14.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(63, 13);
+            this.label14.Size = new System.Drawing.Size(83, 17);
             this.label14.TabIndex = 15;
             this.label14.Text = "User Name:";
             // 
             // TEXTBOX_UpdateUserId
             // 
-            this.TEXTBOX_UpdateUserId.Location = new System.Drawing.Point(341, 239);
+            this.TEXTBOX_UpdateUserId.Location = new System.Drawing.Point(455, 294);
+            this.TEXTBOX_UpdateUserId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_UpdateUserId.Name = "TEXTBOX_UpdateUserId";
-            this.TEXTBOX_UpdateUserId.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_UpdateUserId.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_UpdateUserId.TabIndex = 21;
             this.TEXTBOX_UpdateUserId.Text = "1";
             // 
             // TEXTBOX_InsertUserId
             // 
-            this.TEXTBOX_InsertUserId.Location = new System.Drawing.Point(103, 239);
+            this.TEXTBOX_InsertUserId.Location = new System.Drawing.Point(137, 294);
+            this.TEXTBOX_InsertUserId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_InsertUserId.Name = "TEXTBOX_InsertUserId";
-            this.TEXTBOX_InsertUserId.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_InsertUserId.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_InsertUserId.TabIndex = 22;
             this.TEXTBOX_InsertUserId.Text = "1";
             // 
             // TEXTBOX_Description
             // 
-            this.TEXTBOX_Description.Location = new System.Drawing.Point(103, 194);
+            this.TEXTBOX_Description.Location = new System.Drawing.Point(137, 239);
+            this.TEXTBOX_Description.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Description.Name = "TEXTBOX_Description";
-            this.TEXTBOX_Description.Size = new System.Drawing.Size(363, 20);
+            this.TEXTBOX_Description.Size = new System.Drawing.Size(483, 22);
             this.TEXTBOX_Description.TabIndex = 23;
             this.TEXTBOX_Description.Text = "Developer From CilantroLabs";
             // 
             // TEXTBOX_AppName
             // 
-            this.TEXTBOX_AppName.Location = new System.Drawing.Point(341, 166);
+            this.TEXTBOX_AppName.Location = new System.Drawing.Point(455, 204);
+            this.TEXTBOX_AppName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_AppName.Name = "TEXTBOX_AppName";
-            this.TEXTBOX_AppName.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_AppName.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_AppName.TabIndex = 24;
             this.TEXTBOX_AppName.Text = "C#";
             // 
             // TEXTBOX_RolName
             // 
-            this.TEXTBOX_RolName.Location = new System.Drawing.Point(103, 166);
+            this.TEXTBOX_RolName.Location = new System.Drawing.Point(137, 204);
+            this.TEXTBOX_RolName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_RolName.Name = "TEXTBOX_RolName";
-            this.TEXTBOX_RolName.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_RolName.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_RolName.TabIndex = 25;
             this.TEXTBOX_RolName.Text = "Developer";
             // 
             // TEXTBOX_NewPassword
             // 
-            this.TEXTBOX_NewPassword.Location = new System.Drawing.Point(341, 117);
+            this.TEXTBOX_NewPassword.Location = new System.Drawing.Point(455, 144);
+            this.TEXTBOX_NewPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_NewPassword.Name = "TEXTBOX_NewPassword";
-            this.TEXTBOX_NewPassword.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_NewPassword.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_NewPassword.TabIndex = 26;
             this.TEXTBOX_NewPassword.Text = "C1l4ntr0";
             // 
             // TEXTBOX_NewUserName
             // 
-            this.TEXTBOX_NewUserName.Location = new System.Drawing.Point(341, 91);
+            this.TEXTBOX_NewUserName.Location = new System.Drawing.Point(455, 112);
+            this.TEXTBOX_NewUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_NewUserName.Name = "TEXTBOX_NewUserName";
-            this.TEXTBOX_NewUserName.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_NewUserName.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_NewUserName.TabIndex = 27;
             this.TEXTBOX_NewUserName.Text = "Ivan";
             // 
             // TEXTBOX_Password
             // 
-            this.TEXTBOX_Password.Location = new System.Drawing.Point(103, 117);
+            this.TEXTBOX_Password.Location = new System.Drawing.Point(137, 144);
+            this.TEXTBOX_Password.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Password.Name = "TEXTBOX_Password";
-            this.TEXTBOX_Password.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_Password.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_Password.TabIndex = 28;
             this.TEXTBOX_Password.Text = "Cilantro";
             // 
             // TEXTBOX_UserName
             // 
-            this.TEXTBOX_UserName.Location = new System.Drawing.Point(103, 91);
+            this.TEXTBOX_UserName.Location = new System.Drawing.Point(137, 112);
+            this.TEXTBOX_UserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_UserName.Name = "TEXTBOX_UserName";
-            this.TEXTBOX_UserName.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_UserName.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_UserName.TabIndex = 29;
             this.TEXTBOX_UserName.Text = "Erick";
             // 
             // TEXTBOX_RowId
             // 
-            this.TEXTBOX_RowId.Location = new System.Drawing.Point(344, 35);
+            this.TEXTBOX_RowId.Location = new System.Drawing.Point(459, 43);
+            this.TEXTBOX_RowId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_RowId.Name = "TEXTBOX_RowId";
-            this.TEXTBOX_RowId.Size = new System.Drawing.Size(23, 20);
+            this.TEXTBOX_RowId.Size = new System.Drawing.Size(29, 22);
             this.TEXTBOX_RowId.TabIndex = 30;
             this.TEXTBOX_RowId.Text = "1";
             // 
             // TEXTBOX_ConnectionString
             // 
-            this.TEXTBOX_ConnectionString.Location = new System.Drawing.Point(103, 12);
+            this.TEXTBOX_ConnectionString.Location = new System.Drawing.Point(137, 15);
+            this.TEXTBOX_ConnectionString.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_ConnectionString.Name = "TEXTBOX_ConnectionString";
-            this.TEXTBOX_ConnectionString.Size = new System.Drawing.Size(363, 20);
+            this.TEXTBOX_ConnectionString.Size = new System.Drawing.Size(483, 22);
             this.TEXTBOX_ConnectionString.TabIndex = 31;
             this.TEXTBOX_ConnectionString.Text = "data source=.\\SQLEXPRESS; Initial Catalog = INSURERS_DB; Integrated Security = Tr" +
     "ue;";
             // 
             // groupBox1
             // 
-            this.groupBox1.Location = new System.Drawing.Point(7, 1);
+            this.groupBox1.Location = new System.Drawing.Point(9, 1);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(476, 72);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(635, 89);
             this.groupBox1.TabIndex = 32;
             this.groupBox1.TabStop = false;
             // 
             // TEXTBOX_RolId
             // 
-            this.TEXTBOX_RolId.Location = new System.Drawing.Point(261, 36);
+            this.TEXTBOX_RolId.Location = new System.Drawing.Point(348, 44);
+            this.TEXTBOX_RolId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_RolId.Name = "TEXTBOX_RolId";
-            this.TEXTBOX_RolId.Size = new System.Drawing.Size(30, 20);
+            this.TEXTBOX_RolId.Size = new System.Drawing.Size(39, 22);
             this.TEXTBOX_RolId.TabIndex = 34;
             this.TEXTBOX_RolId.Text = "1";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(226, 38);
+            this.label15.Location = new System.Drawing.Point(301, 47);
+            this.label15.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(35, 13);
+            this.label15.Size = new System.Drawing.Size(44, 17);
             this.label15.TabIndex = 33;
             this.label15.Text = "RolId:";
             // 
             // groupBox2
             // 
-            this.groupBox2.Location = new System.Drawing.Point(7, 77);
+            this.groupBox2.Location = new System.Drawing.Point(9, 95);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(476, 72);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Size = new System.Drawing.Size(635, 89);
             this.groupBox2.TabIndex = 33;
             this.groupBox2.TabStop = false;
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(263, 242);
+            this.label23.Location = new System.Drawing.Point(351, 298);
+            this.label23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(79, 13);
+            this.label23.Size = new System.Drawing.Size(103, 17);
             this.label23.TabIndex = 42;
             this.label23.Text = "Update UserId:";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(35, 242);
+            this.label24.Location = new System.Drawing.Point(47, 298);
+            this.label24.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(70, 13);
+            this.label24.Size = new System.Drawing.Size(92, 17);
             this.label24.TabIndex = 43;
             this.label24.Text = "Insert UserId:";
             // 
             // groupBox3
             // 
-            this.groupBox3.Location = new System.Drawing.Point(7, 155);
+            this.groupBox3.Location = new System.Drawing.Point(9, 191);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(476, 72);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Size = new System.Drawing.Size(635, 89);
             this.groupBox3.TabIndex = 34;
             this.groupBox3.TabStop = false;
             // 
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(42, 269);
+            this.label25.Location = new System.Drawing.Point(56, 331);
+            this.label25.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(64, 13);
+            this.label25.Size = new System.Drawing.Size(83, 17);
             this.label25.TabIndex = 44;
             this.label25.Text = "Insert RolId:";
             // 
             // TEXTBOX_InsertRolId
             // 
-            this.TEXTBOX_InsertRolId.Location = new System.Drawing.Point(103, 266);
+            this.TEXTBOX_InsertRolId.Location = new System.Drawing.Point(137, 327);
+            this.TEXTBOX_InsertRolId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_InsertRolId.Name = "TEXTBOX_InsertRolId";
-            this.TEXTBOX_InsertRolId.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_InsertRolId.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_InsertRolId.TabIndex = 45;
             this.TEXTBOX_InsertRolId.Text = "1";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(268, 269);
+            this.label4.Location = new System.Drawing.Point(357, 331);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 13);
+            this.label4.Size = new System.Drawing.Size(94, 17);
             this.label4.TabIndex = 46;
             this.label4.Text = "Update RolId:";
             // 
             // TEXTBOX_UpdateRolId
             // 
-            this.TEXTBOX_UpdateRolId.Location = new System.Drawing.Point(341, 266);
+            this.TEXTBOX_UpdateRolId.Location = new System.Drawing.Point(455, 327);
+            this.TEXTBOX_UpdateRolId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_UpdateRolId.Name = "TEXTBOX_UpdateRolId";
-            this.TEXTBOX_UpdateRolId.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_UpdateRolId.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_UpdateRolId.TabIndex = 47;
             this.TEXTBOX_UpdateRolId.Text = "1";
             // 
             // TEXTBOX_UpdateAppId
             // 
-            this.TEXTBOX_UpdateAppId.Location = new System.Drawing.Point(341, 296);
+            this.TEXTBOX_UpdateAppId.Location = new System.Drawing.Point(455, 364);
+            this.TEXTBOX_UpdateAppId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_UpdateAppId.Name = "TEXTBOX_UpdateAppId";
-            this.TEXTBOX_UpdateAppId.Size = new System.Drawing.Size(125, 20);
+            this.TEXTBOX_UpdateAppId.Size = new System.Drawing.Size(165, 22);
             this.TEXTBOX_UpdateAppId.TabIndex = 51;
             this.TEXTBOX_UpdateAppId.Text = "1";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(265, 299);
+            this.label5.Location = new System.Drawing.Point(353, 368);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(76, 13);
+            this.label5.Size = new System.Drawing.Size(98, 17);
             this.label5.TabIndex = 50;
             this.label5.Text = "Update AppId:";
             // 
             // TEXTBOX_InsertAppId
             // 
-            this.TEXTBOX_InsertAppId.Location = new System.Drawing.Point(103, 296);
+            this.TEXTBOX_InsertAppId.Location = new System.Drawing.Point(137, 364);
+            this.TEXTBOX_InsertAppId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_InsertAppId.Name = "TEXTBOX_InsertAppId";
-            this.TEXTBOX_InsertAppId.Size = new System.Drawing.Size(145, 20);
+            this.TEXTBOX_InsertAppId.Size = new System.Drawing.Size(192, 22);
             this.TEXTBOX_InsertAppId.TabIndex = 49;
             this.TEXTBOX_InsertAppId.Text = "1";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(39, 299);
+            this.label10.Location = new System.Drawing.Point(52, 368);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(67, 13);
+            this.label10.Size = new System.Drawing.Size(87, 17);
             this.label10.TabIndex = 48;
             this.label10.Text = "Insert AppId:";
             // 
             // groupBox4
             // 
-            this.groupBox4.Location = new System.Drawing.Point(7, 226);
+            this.groupBox4.Location = new System.Drawing.Point(9, 278);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(476, 115);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Size = new System.Drawing.Size(635, 142);
             this.groupBox4.TabIndex = 35;
             this.groupBox4.TabStop = false;
             // 
             // BUTTON_AddNewUser
             // 
-            this.BUTTON_AddNewUser.Location = new System.Drawing.Point(7, 356);
+            this.BUTTON_AddNewUser.Location = new System.Drawing.Point(9, 438);
+            this.BUTTON_AddNewUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_AddNewUser.Name = "BUTTON_AddNewUser";
-            this.BUTTON_AddNewUser.Size = new System.Drawing.Size(83, 23);
+            this.BUTTON_AddNewUser.Size = new System.Drawing.Size(111, 28);
             this.BUTTON_AddNewUser.TabIndex = 52;
             this.BUTTON_AddNewUser.Text = "Add User";
             this.BUTTON_AddNewUser.UseVisualStyleBackColor = true;
@@ -446,9 +492,10 @@
             // 
             // BUTTON_InsertApp
             // 
-            this.BUTTON_InsertApp.Location = new System.Drawing.Point(7, 385);
+            this.BUTTON_InsertApp.Location = new System.Drawing.Point(9, 474);
+            this.BUTTON_InsertApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertApp.Name = "BUTTON_InsertApp";
-            this.BUTTON_InsertApp.Size = new System.Drawing.Size(83, 23);
+            this.BUTTON_InsertApp.Size = new System.Drawing.Size(111, 28);
             this.BUTTON_InsertApp.TabIndex = 53;
             this.BUTTON_InsertApp.Text = "Insert App";
             this.BUTTON_InsertApp.UseVisualStyleBackColor = true;
@@ -456,9 +503,10 @@
             // 
             // BUTTON_InsertRol
             // 
-            this.BUTTON_InsertRol.Location = new System.Drawing.Point(7, 414);
+            this.BUTTON_InsertRol.Location = new System.Drawing.Point(9, 510);
+            this.BUTTON_InsertRol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertRol.Name = "BUTTON_InsertRol";
-            this.BUTTON_InsertRol.Size = new System.Drawing.Size(83, 23);
+            this.BUTTON_InsertRol.Size = new System.Drawing.Size(111, 28);
             this.BUTTON_InsertRol.TabIndex = 54;
             this.BUTTON_InsertRol.Text = "Insert Rol";
             this.BUTTON_InsertRol.UseVisualStyleBackColor = true;
@@ -466,9 +514,10 @@
             // 
             // BUTTON_InsertUser
             // 
-            this.BUTTON_InsertUser.Location = new System.Drawing.Point(7, 443);
+            this.BUTTON_InsertUser.Location = new System.Drawing.Point(9, 545);
+            this.BUTTON_InsertUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertUser.Name = "BUTTON_InsertUser";
-            this.BUTTON_InsertUser.Size = new System.Drawing.Size(83, 23);
+            this.BUTTON_InsertUser.Size = new System.Drawing.Size(111, 28);
             this.BUTTON_InsertUser.TabIndex = 55;
             this.BUTTON_InsertUser.Text = "Insert User";
             this.BUTTON_InsertUser.UseVisualStyleBackColor = true;
@@ -476,9 +525,10 @@
             // 
             // BUTTON_InsertUserRolApp
             // 
-            this.BUTTON_InsertUserRolApp.Location = new System.Drawing.Point(7, 472);
+            this.BUTTON_InsertUserRolApp.Location = new System.Drawing.Point(9, 581);
+            this.BUTTON_InsertUserRolApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertUserRolApp.Name = "BUTTON_InsertUserRolApp";
-            this.BUTTON_InsertUserRolApp.Size = new System.Drawing.Size(83, 23);
+            this.BUTTON_InsertUserRolApp.Size = new System.Drawing.Size(111, 28);
             this.BUTTON_InsertUserRolApp.TabIndex = 56;
             this.BUTTON_InsertUserRolApp.Text = "Insert Rol App";
             this.BUTTON_InsertUserRolApp.UseVisualStyleBackColor = true;
@@ -486,9 +536,10 @@
             // 
             // BUTTON_QueryApp
             // 
-            this.BUTTON_QueryApp.Location = new System.Drawing.Point(103, 356);
+            this.BUTTON_QueryApp.Location = new System.Drawing.Point(137, 438);
+            this.BUTTON_QueryApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryApp.Name = "BUTTON_QueryApp";
-            this.BUTTON_QueryApp.Size = new System.Drawing.Size(112, 23);
+            this.BUTTON_QueryApp.Size = new System.Drawing.Size(149, 28);
             this.BUTTON_QueryApp.TabIndex = 57;
             this.BUTTON_QueryApp.Text = "Query App";
             this.BUTTON_QueryApp.UseVisualStyleBackColor = true;
@@ -496,9 +547,10 @@
             // 
             // BUTTON_QueryAppNameById
             // 
-            this.BUTTON_QueryAppNameById.Location = new System.Drawing.Point(103, 385);
+            this.BUTTON_QueryAppNameById.Location = new System.Drawing.Point(137, 474);
+            this.BUTTON_QueryAppNameById.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryAppNameById.Name = "BUTTON_QueryAppNameById";
-            this.BUTTON_QueryAppNameById.Size = new System.Drawing.Size(112, 23);
+            this.BUTTON_QueryAppNameById.Size = new System.Drawing.Size(149, 28);
             this.BUTTON_QueryAppNameById.TabIndex = 58;
             this.BUTTON_QueryAppNameById.Text = "QueryAppNameById";
             this.BUTTON_QueryAppNameById.UseVisualStyleBackColor = true;
@@ -506,9 +558,10 @@
             // 
             // BUTTON_QueryRol
             // 
-            this.BUTTON_QueryRol.Location = new System.Drawing.Point(103, 414);
+            this.BUTTON_QueryRol.Location = new System.Drawing.Point(137, 510);
+            this.BUTTON_QueryRol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryRol.Name = "BUTTON_QueryRol";
-            this.BUTTON_QueryRol.Size = new System.Drawing.Size(112, 23);
+            this.BUTTON_QueryRol.Size = new System.Drawing.Size(149, 28);
             this.BUTTON_QueryRol.TabIndex = 59;
             this.BUTTON_QueryRol.Text = "Query Rol";
             this.BUTTON_QueryRol.UseVisualStyleBackColor = true;
@@ -516,9 +569,10 @@
             // 
             // BUTTON_QueryRolApp
             // 
-            this.BUTTON_QueryRolApp.Location = new System.Drawing.Point(103, 443);
+            this.BUTTON_QueryRolApp.Location = new System.Drawing.Point(137, 545);
+            this.BUTTON_QueryRolApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryRolApp.Name = "BUTTON_QueryRolApp";
-            this.BUTTON_QueryRolApp.Size = new System.Drawing.Size(112, 23);
+            this.BUTTON_QueryRolApp.Size = new System.Drawing.Size(149, 28);
             this.BUTTON_QueryRolApp.TabIndex = 60;
             this.BUTTON_QueryRolApp.Text = "Query Rol App";
             this.BUTTON_QueryRolApp.UseVisualStyleBackColor = true;
@@ -526,9 +580,10 @@
             // 
             // BUTTON_QueryRolByUserIdAppId
             // 
-            this.BUTTON_QueryRolByUserIdAppId.Location = new System.Drawing.Point(231, 443);
+            this.BUTTON_QueryRolByUserIdAppId.Location = new System.Drawing.Point(308, 545);
+            this.BUTTON_QueryRolByUserIdAppId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryRolByUserIdAppId.Name = "BUTTON_QueryRolByUserIdAppId";
-            this.BUTTON_QueryRolByUserIdAppId.Size = new System.Drawing.Size(111, 23);
+            this.BUTTON_QueryRolByUserIdAppId.Size = new System.Drawing.Size(148, 28);
             this.BUTTON_QueryRolByUserIdAppId.TabIndex = 61;
             this.BUTTON_QueryRolByUserIdAppId.Text = "Query Rol User-App";
             this.BUTTON_QueryRolByUserIdAppId.UseVisualStyleBackColor = true;
@@ -536,9 +591,10 @@
             // 
             // BUTTON_QueryRolNameById
             // 
-            this.BUTTON_QueryRolNameById.Location = new System.Drawing.Point(231, 356);
+            this.BUTTON_QueryRolNameById.Location = new System.Drawing.Point(308, 438);
+            this.BUTTON_QueryRolNameById.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryRolNameById.Name = "BUTTON_QueryRolNameById";
-            this.BUTTON_QueryRolNameById.Size = new System.Drawing.Size(111, 23);
+            this.BUTTON_QueryRolNameById.Size = new System.Drawing.Size(148, 28);
             this.BUTTON_QueryRolNameById.TabIndex = 62;
             this.BUTTON_QueryRolNameById.Text = "QueryRolNameById";
             this.BUTTON_QueryRolNameById.UseVisualStyleBackColor = true;
@@ -546,9 +602,10 @@
             // 
             // BUTTON_QueryUser
             // 
-            this.BUTTON_QueryUser.Location = new System.Drawing.Point(231, 385);
+            this.BUTTON_QueryUser.Location = new System.Drawing.Point(308, 474);
+            this.BUTTON_QueryUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryUser.Name = "BUTTON_QueryUser";
-            this.BUTTON_QueryUser.Size = new System.Drawing.Size(111, 23);
+            this.BUTTON_QueryUser.Size = new System.Drawing.Size(148, 28);
             this.BUTTON_QueryUser.TabIndex = 63;
             this.BUTTON_QueryUser.Text = "Query User";
             this.BUTTON_QueryUser.UseVisualStyleBackColor = true;
@@ -556,9 +613,10 @@
             // 
             // BUTTON_UpdateApp
             // 
-            this.BUTTON_UpdateApp.Location = new System.Drawing.Point(356, 356);
+            this.BUTTON_UpdateApp.Location = new System.Drawing.Point(475, 438);
+            this.BUTTON_UpdateApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateApp.Name = "BUTTON_UpdateApp";
-            this.BUTTON_UpdateApp.Size = new System.Drawing.Size(127, 23);
+            this.BUTTON_UpdateApp.Size = new System.Drawing.Size(169, 28);
             this.BUTTON_UpdateApp.TabIndex = 65;
             this.BUTTON_UpdateApp.Text = "Update App";
             this.BUTTON_UpdateApp.UseVisualStyleBackColor = true;
@@ -566,9 +624,10 @@
             // 
             // BUTTON_QueryUserRolApp
             // 
-            this.BUTTON_QueryUserRolApp.Location = new System.Drawing.Point(231, 414);
+            this.BUTTON_QueryUserRolApp.Location = new System.Drawing.Point(308, 510);
+            this.BUTTON_QueryUserRolApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_QueryUserRolApp.Name = "BUTTON_QueryUserRolApp";
-            this.BUTTON_QueryUserRolApp.Size = new System.Drawing.Size(111, 23);
+            this.BUTTON_QueryUserRolApp.Size = new System.Drawing.Size(148, 28);
             this.BUTTON_QueryUserRolApp.TabIndex = 66;
             this.BUTTON_QueryUserRolApp.Text = "Query User Rol App";
             this.BUTTON_QueryUserRolApp.UseVisualStyleBackColor = true;
@@ -577,33 +636,37 @@
             // DATAGRIDVIEW_Users
             // 
             this.DATAGRIDVIEW_Users.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DATAGRIDVIEW_Users.Location = new System.Drawing.Point(499, 13);
+            this.DATAGRIDVIEW_Users.Location = new System.Drawing.Point(665, 16);
+            this.DATAGRIDVIEW_Users.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DATAGRIDVIEW_Users.Name = "DATAGRIDVIEW_Users";
-            this.DATAGRIDVIEW_Users.Size = new System.Drawing.Size(633, 214);
+            this.DATAGRIDVIEW_Users.Size = new System.Drawing.Size(844, 263);
             this.DATAGRIDVIEW_Users.TabIndex = 67;
             // 
             // TEXTBOX_EnableSystem
             // 
-            this.TEXTBOX_EnableSystem.Location = new System.Drawing.Point(428, 35);
+            this.TEXTBOX_EnableSystem.Location = new System.Drawing.Point(571, 43);
+            this.TEXTBOX_EnableSystem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_EnableSystem.Name = "TEXTBOX_EnableSystem";
-            this.TEXTBOX_EnableSystem.Size = new System.Drawing.Size(38, 20);
+            this.TEXTBOX_EnableSystem.Size = new System.Drawing.Size(49, 22);
             this.TEXTBOX_EnableSystem.TabIndex = 69;
             this.TEXTBOX_EnableSystem.Text = "1";
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(378, 39);
+            this.label16.Location = new System.Drawing.Point(504, 48);
+            this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(53, 13);
+            this.label16.Size = new System.Drawing.Size(69, 17);
             this.label16.TabIndex = 68;
             this.label16.Text = "Enable S:";
             // 
             // BUTTON_UpdateRol
             // 
-            this.BUTTON_UpdateRol.Location = new System.Drawing.Point(356, 385);
+            this.BUTTON_UpdateRol.Location = new System.Drawing.Point(475, 474);
+            this.BUTTON_UpdateRol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateRol.Name = "BUTTON_UpdateRol";
-            this.BUTTON_UpdateRol.Size = new System.Drawing.Size(127, 23);
+            this.BUTTON_UpdateRol.Size = new System.Drawing.Size(169, 28);
             this.BUTTON_UpdateRol.TabIndex = 70;
             this.BUTTON_UpdateRol.Text = "Update Rol";
             this.BUTTON_UpdateRol.UseVisualStyleBackColor = true;
@@ -611,9 +674,10 @@
             // 
             // BUTTON_UpdateUser
             // 
-            this.BUTTON_UpdateUser.Location = new System.Drawing.Point(356, 413);
+            this.BUTTON_UpdateUser.Location = new System.Drawing.Point(475, 508);
+            this.BUTTON_UpdateUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateUser.Name = "BUTTON_UpdateUser";
-            this.BUTTON_UpdateUser.Size = new System.Drawing.Size(127, 23);
+            this.BUTTON_UpdateUser.Size = new System.Drawing.Size(169, 28);
             this.BUTTON_UpdateUser.TabIndex = 71;
             this.BUTTON_UpdateUser.Text = "Update User";
             this.BUTTON_UpdateUser.UseVisualStyleBackColor = true;
@@ -621,9 +685,10 @@
             // 
             // BUTTON_UpdateUserRolApp
             // 
-            this.BUTTON_UpdateUserRolApp.Location = new System.Drawing.Point(356, 443);
+            this.BUTTON_UpdateUserRolApp.Location = new System.Drawing.Point(475, 545);
+            this.BUTTON_UpdateUserRolApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateUserRolApp.Name = "BUTTON_UpdateUserRolApp";
-            this.BUTTON_UpdateUserRolApp.Size = new System.Drawing.Size(127, 23);
+            this.BUTTON_UpdateUserRolApp.Size = new System.Drawing.Size(169, 28);
             this.BUTTON_UpdateUserRolApp.TabIndex = 72;
             this.BUTTON_UpdateUserRolApp.Text = "Update User Rol App";
             this.BUTTON_UpdateUserRolApp.UseVisualStyleBackColor = true;
@@ -631,9 +696,10 @@
             // 
             // BUTTON_ValidateApp
             // 
-            this.BUTTON_ValidateApp.Location = new System.Drawing.Point(490, 356);
+            this.BUTTON_ValidateApp.Location = new System.Drawing.Point(653, 438);
+            this.BUTTON_ValidateApp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_ValidateApp.Name = "BUTTON_ValidateApp";
-            this.BUTTON_ValidateApp.Size = new System.Drawing.Size(105, 23);
+            this.BUTTON_ValidateApp.Size = new System.Drawing.Size(140, 28);
             this.BUTTON_ValidateApp.TabIndex = 73;
             this.BUTTON_ValidateApp.Text = "Validate App";
             this.BUTTON_ValidateApp.UseVisualStyleBackColor = true;
@@ -641,9 +707,10 @@
             // 
             // BUTTON_ValidateRol
             // 
-            this.BUTTON_ValidateRol.Location = new System.Drawing.Point(490, 385);
+            this.BUTTON_ValidateRol.Location = new System.Drawing.Point(653, 474);
+            this.BUTTON_ValidateRol.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_ValidateRol.Name = "BUTTON_ValidateRol";
-            this.BUTTON_ValidateRol.Size = new System.Drawing.Size(105, 23);
+            this.BUTTON_ValidateRol.Size = new System.Drawing.Size(140, 28);
             this.BUTTON_ValidateRol.TabIndex = 74;
             this.BUTTON_ValidateRol.Text = "Validate Rol";
             this.BUTTON_ValidateRol.UseVisualStyleBackColor = true;
@@ -651,9 +718,10 @@
             // 
             // BUTTON_ValidateUser
             // 
-            this.BUTTON_ValidateUser.Location = new System.Drawing.Point(490, 413);
+            this.BUTTON_ValidateUser.Location = new System.Drawing.Point(653, 508);
+            this.BUTTON_ValidateUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_ValidateUser.Name = "BUTTON_ValidateUser";
-            this.BUTTON_ValidateUser.Size = new System.Drawing.Size(105, 23);
+            this.BUTTON_ValidateUser.Size = new System.Drawing.Size(140, 28);
             this.BUTTON_ValidateUser.TabIndex = 75;
             this.BUTTON_ValidateUser.Text = "Validate User";
             this.BUTTON_ValidateUser.UseVisualStyleBackColor = true;
@@ -661,19 +729,31 @@
             // 
             // BUTTON_ValidateUserPassword
             // 
-            this.BUTTON_ValidateUserPassword.Location = new System.Drawing.Point(490, 443);
+            this.BUTTON_ValidateUserPassword.Location = new System.Drawing.Point(653, 545);
+            this.BUTTON_ValidateUserPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_ValidateUserPassword.Name = "BUTTON_ValidateUserPassword";
-            this.BUTTON_ValidateUserPassword.Size = new System.Drawing.Size(105, 23);
+            this.BUTTON_ValidateUserPassword.Size = new System.Drawing.Size(140, 28);
             this.BUTTON_ValidateUserPassword.TabIndex = 76;
             this.BUTTON_ValidateUserPassword.Text = "Validate User Pass";
             this.BUTTON_ValidateUserPassword.UseVisualStyleBackColor = true;
             this.BUTTON_ValidateUserPassword.Click += new System.EventHandler(this.BUTTON_ValidateUserPassword_Click);
             // 
+            // BUTTON_SignIn
+            // 
+            this.BUTTON_SignIn.Location = new System.Drawing.Point(651, 358);
+            this.BUTTON_SignIn.Name = "BUTTON_SignIn";
+            this.BUTTON_SignIn.Size = new System.Drawing.Size(84, 28);
+            this.BUTTON_SignIn.TabIndex = 77;
+            this.BUTTON_SignIn.Text = "Sign In";
+            this.BUTTON_SignIn.UseVisualStyleBackColor = true;
+            this.BUTTON_SignIn.Click += new System.EventHandler(this.BUTTON_SignIn_Click);
+            // 
             // FORM_Users
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1151, 636);
+            this.ClientSize = new System.Drawing.Size(1535, 783);
+            this.Controls.Add(this.BUTTON_SignIn);
             this.Controls.Add(this.BUTTON_ValidateUserPassword);
             this.Controls.Add(this.BUTTON_ValidateUser);
             this.Controls.Add(this.BUTTON_ValidateRol);
@@ -738,6 +818,7 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox4);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FORM_Users";
             this.Text = "FORM_Users";
             this.Load += new System.EventHandler(this.FORM_Users_Load);
@@ -813,5 +894,6 @@
         private System.Windows.Forms.Button BUTTON_ValidateRol;
         private System.Windows.Forms.Button BUTTON_ValidateUser;
         private System.Windows.Forms.Button BUTTON_ValidateUserPassword;
+        private System.Windows.Forms.Button BUTTON_SignIn;
     }
 }

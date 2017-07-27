@@ -66,33 +66,37 @@
             // DATAGRID_Query
             // 
             this.DATAGRID_Query.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DATAGRID_Query.Location = new System.Drawing.Point(9, 170);
+            this.DATAGRID_Query.Location = new System.Drawing.Point(12, 209);
+            this.DATAGRID_Query.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.DATAGRID_Query.Name = "DATAGRID_Query";
-            this.DATAGRID_Query.Size = new System.Drawing.Size(797, 184);
+            this.DATAGRID_Query.Size = new System.Drawing.Size(1063, 226);
             this.DATAGRID_Query.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(43, 38);
+            this.label2.Location = new System.Drawing.Point(57, 47);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.Size = new System.Drawing.Size(63, 17);
             this.label2.TabIndex = 14;
             this.label2.Text = "InsurerId";
             // 
             // TEXTBOX_InsurerId
             // 
-            this.TEXTBOX_InsurerId.Location = new System.Drawing.Point(100, 35);
+            this.TEXTBOX_InsurerId.Location = new System.Drawing.Point(133, 43);
+            this.TEXTBOX_InsurerId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_InsurerId.Name = "TEXTBOX_InsurerId";
-            this.TEXTBOX_InsurerId.Size = new System.Drawing.Size(76, 20);
+            this.TEXTBOX_InsurerId.Size = new System.Drawing.Size(100, 22);
             this.TEXTBOX_InsurerId.TabIndex = 13;
             this.TEXTBOX_InsurerId.Text = "1";
             // 
             // BOTON_QueryViewInsurer
             // 
-            this.BOTON_QueryViewInsurer.Location = new System.Drawing.Point(193, 137);
+            this.BOTON_QueryViewInsurer.Location = new System.Drawing.Point(257, 169);
+            this.BOTON_QueryViewInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BOTON_QueryViewInsurer.Name = "BOTON_QueryViewInsurer";
-            this.BOTON_QueryViewInsurer.Size = new System.Drawing.Size(101, 23);
+            this.BOTON_QueryViewInsurer.Size = new System.Drawing.Size(135, 28);
             this.BOTON_QueryViewInsurer.TabIndex = 12;
             this.BOTON_QueryViewInsurer.Text = "QueryViewInsurer";
             this.BOTON_QueryViewInsurer.UseVisualStyleBackColor = true;
@@ -100,9 +104,10 @@
             // 
             // BOTON_QueryCsvInsurer
             // 
-            this.BOTON_QueryCsvInsurer.Location = new System.Drawing.Point(100, 137);
+            this.BOTON_QueryCsvInsurer.Location = new System.Drawing.Point(133, 169);
+            this.BOTON_QueryCsvInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BOTON_QueryCsvInsurer.Name = "BOTON_QueryCsvInsurer";
-            this.BOTON_QueryCsvInsurer.Size = new System.Drawing.Size(94, 23);
+            this.BOTON_QueryCsvInsurer.Size = new System.Drawing.Size(125, 28);
             this.BOTON_QueryCsvInsurer.TabIndex = 11;
             this.BOTON_QueryCsvInsurer.Text = "QueryCsvInsurer";
             this.BOTON_QueryCsvInsurer.UseVisualStyleBackColor = true;
@@ -111,26 +116,29 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 12);
+            this.label1.Location = new System.Drawing.Point(8, 15);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(88, 13);
+            this.label1.Size = new System.Drawing.Size(116, 17);
             this.label1.TabIndex = 10;
             this.label1.Text = "ConnectionString";
             // 
             // TEXTBOX_ConnectionString
             // 
-            this.TEXTBOX_ConnectionString.Location = new System.Drawing.Point(100, 9);
+            this.TEXTBOX_ConnectionString.Location = new System.Drawing.Point(133, 11);
+            this.TEXTBOX_ConnectionString.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_ConnectionString.Name = "TEXTBOX_ConnectionString";
-            this.TEXTBOX_ConnectionString.Size = new System.Drawing.Size(706, 20);
+            this.TEXTBOX_ConnectionString.Size = new System.Drawing.Size(940, 22);
             this.TEXTBOX_ConnectionString.TabIndex = 9;
             this.TEXTBOX_ConnectionString.Text = "data source=.\\SQLEXPRESS; Initial Catalog = INSURERS_DB; Integrated Security = Tr" +
     "ue;";
             // 
             // BOTON_QueryInsurer
             // 
-            this.BOTON_QueryInsurer.Location = new System.Drawing.Point(9, 137);
+            this.BOTON_QueryInsurer.Location = new System.Drawing.Point(12, 169);
+            this.BOTON_QueryInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BOTON_QueryInsurer.Name = "BOTON_QueryInsurer";
-            this.BOTON_QueryInsurer.Size = new System.Drawing.Size(94, 23);
+            this.BOTON_QueryInsurer.Size = new System.Drawing.Size(125, 28);
             this.BOTON_QueryInsurer.TabIndex = 8;
             this.BOTON_QueryInsurer.Text = "QueryInsurer";
             this.BOTON_QueryInsurer.UseVisualStyleBackColor = true;
@@ -138,38 +146,44 @@
             // 
             // TEXTBOX_appId
             // 
-            this.TEXTBOX_appId.Location = new System.Drawing.Point(100, 57);
+            this.TEXTBOX_appId.Location = new System.Drawing.Point(133, 70);
+            this.TEXTBOX_appId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_appId.Name = "TEXTBOX_appId";
-            this.TEXTBOX_appId.Size = new System.Drawing.Size(76, 20);
+            this.TEXTBOX_appId.Size = new System.Drawing.Size(100, 22);
             this.TEXTBOX_appId.TabIndex = 18;
             this.TEXTBOX_appId.Text = "78";
             // 
             // TEXTBOX_userId
             // 
-            this.TEXTBOX_userId.Location = new System.Drawing.Point(100, 83);
+            this.TEXTBOX_userId.Location = new System.Drawing.Point(133, 102);
+            this.TEXTBOX_userId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_userId.Name = "TEXTBOX_userId";
-            this.TEXTBOX_userId.Size = new System.Drawing.Size(76, 20);
+            this.TEXTBOX_userId.Size = new System.Drawing.Size(100, 22);
             this.TEXTBOX_userId.TabIndex = 19;
+            this.TEXTBOX_userId.Text = "1";
             // 
             // TEXTBOX_Csv
             // 
-            this.TEXTBOX_Csv.Location = new System.Drawing.Point(100, 111);
+            this.TEXTBOX_Csv.Location = new System.Drawing.Point(133, 137);
+            this.TEXTBOX_Csv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Csv.Name = "TEXTBOX_Csv";
-            this.TEXTBOX_Csv.Size = new System.Drawing.Size(76, 20);
+            this.TEXTBOX_Csv.Size = new System.Drawing.Size(100, 22);
             this.TEXTBOX_Csv.TabIndex = 20;
             // 
             // TEXTBOX_Logo
             // 
-            this.TEXTBOX_Logo.Location = new System.Drawing.Point(234, 35);
+            this.TEXTBOX_Logo.Location = new System.Drawing.Point(312, 43);
+            this.TEXTBOX_Logo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Logo.Name = "TEXTBOX_Logo";
-            this.TEXTBOX_Logo.Size = new System.Drawing.Size(60, 20);
+            this.TEXTBOX_Logo.Size = new System.Drawing.Size(79, 22);
             this.TEXTBOX_Logo.TabIndex = 21;
             // 
             // BUTTON_InsertCsvInsurer
             // 
-            this.BUTTON_InsertCsvInsurer.Location = new System.Drawing.Point(304, 137);
+            this.BUTTON_InsertCsvInsurer.Location = new System.Drawing.Point(405, 169);
+            this.BUTTON_InsertCsvInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertCsvInsurer.Name = "BUTTON_InsertCsvInsurer";
-            this.BUTTON_InsertCsvInsurer.Size = new System.Drawing.Size(85, 23);
+            this.BUTTON_InsertCsvInsurer.Size = new System.Drawing.Size(113, 28);
             this.BUTTON_InsertCsvInsurer.TabIndex = 22;
             this.BUTTON_InsertCsvInsurer.Text = "InsertCsvInsurer";
             this.BUTTON_InsertCsvInsurer.UseVisualStyleBackColor = true;
@@ -177,37 +191,45 @@
             // 
             // TEXTBOX_Code
             // 
-            this.TEXTBOX_Code.Location = new System.Drawing.Point(234, 61);
+            this.TEXTBOX_Code.Location = new System.Drawing.Point(312, 75);
+            this.TEXTBOX_Code.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Code.Name = "TEXTBOX_Code";
-            this.TEXTBOX_Code.Size = new System.Drawing.Size(60, 20);
+            this.TEXTBOX_Code.Size = new System.Drawing.Size(79, 22);
             this.TEXTBOX_Code.TabIndex = 23;
             // 
             // TEXTBOX_Name
             // 
-            this.TEXTBOX_Name.Location = new System.Drawing.Point(234, 86);
+            this.TEXTBOX_Name.Location = new System.Drawing.Point(312, 106);
+            this.TEXTBOX_Name.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Name.Name = "TEXTBOX_Name";
-            this.TEXTBOX_Name.Size = new System.Drawing.Size(60, 20);
+            this.TEXTBOX_Name.Size = new System.Drawing.Size(79, 22);
             this.TEXTBOX_Name.TabIndex = 24;
+            this.TEXTBOX_Name.Text = "111";
             // 
             // TEXTBOX_Phone
             // 
-            this.TEXTBOX_Phone.Location = new System.Drawing.Point(234, 111);
+            this.TEXTBOX_Phone.Location = new System.Drawing.Point(312, 137);
+            this.TEXTBOX_Phone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Phone.Name = "TEXTBOX_Phone";
-            this.TEXTBOX_Phone.Size = new System.Drawing.Size(60, 20);
+            this.TEXTBOX_Phone.Size = new System.Drawing.Size(79, 22);
             this.TEXTBOX_Phone.TabIndex = 26;
+            this.TEXTBOX_Phone.Text = "11111";
             // 
             // TEXTBOX_Mail
             // 
-            this.TEXTBOX_Mail.Location = new System.Drawing.Point(389, 38);
+            this.TEXTBOX_Mail.Location = new System.Drawing.Point(519, 47);
+            this.TEXTBOX_Mail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_Mail.Name = "TEXTBOX_Mail";
-            this.TEXTBOX_Mail.Size = new System.Drawing.Size(100, 20);
+            this.TEXTBOX_Mail.Size = new System.Drawing.Size(132, 22);
             this.TEXTBOX_Mail.TabIndex = 27;
+            this.TEXTBOX_Mail.Text = "emorales@cil.com";
             // 
             // BUTTON_InsertInsurer
             // 
-            this.BUTTON_InsertInsurer.Location = new System.Drawing.Point(389, 137);
+            this.BUTTON_InsertInsurer.Location = new System.Drawing.Point(519, 169);
+            this.BUTTON_InsertInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertInsurer.Name = "BUTTON_InsertInsurer";
-            this.BUTTON_InsertInsurer.Size = new System.Drawing.Size(85, 23);
+            this.BUTTON_InsertInsurer.Size = new System.Drawing.Size(113, 28);
             this.BUTTON_InsertInsurer.TabIndex = 28;
             this.BUTTON_InsertInsurer.Text = "Insert Insurer";
             this.BUTTON_InsertInsurer.UseVisualStyleBackColor = true;
@@ -215,9 +237,10 @@
             // 
             // BUTTON_InsertViewInsurer
             // 
-            this.BUTTON_InsertViewInsurer.Location = new System.Drawing.Point(475, 137);
+            this.BUTTON_InsertViewInsurer.Location = new System.Drawing.Point(633, 169);
+            this.BUTTON_InsertViewInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_InsertViewInsurer.Name = "BUTTON_InsertViewInsurer";
-            this.BUTTON_InsertViewInsurer.Size = new System.Drawing.Size(85, 23);
+            this.BUTTON_InsertViewInsurer.Size = new System.Drawing.Size(113, 28);
             this.BUTTON_InsertViewInsurer.TabIndex = 29;
             this.BUTTON_InsertViewInsurer.Text = "Insert View";
             this.BUTTON_InsertViewInsurer.UseVisualStyleBackColor = true;
@@ -225,97 +248,109 @@
             // 
             // TEXTBOX_EnableSystem
             // 
-            this.TEXTBOX_EnableSystem.Location = new System.Drawing.Point(389, 61);
+            this.TEXTBOX_EnableSystem.Location = new System.Drawing.Point(519, 75);
+            this.TEXTBOX_EnableSystem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TEXTBOX_EnableSystem.Name = "TEXTBOX_EnableSystem";
-            this.TEXTBOX_EnableSystem.Size = new System.Drawing.Size(100, 20);
+            this.TEXTBOX_EnableSystem.Size = new System.Drawing.Size(132, 22);
             this.TEXTBOX_EnableSystem.TabIndex = 30;
+            this.TEXTBOX_EnableSystem.Text = "1";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(48, 64);
+            this.label3.Location = new System.Drawing.Point(64, 79);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(35, 13);
+            this.label3.Size = new System.Drawing.Size(44, 17);
             this.label3.TabIndex = 31;
             this.label3.Text = "AppId";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(45, 86);
+            this.label4.Location = new System.Drawing.Point(60, 106);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(38, 13);
+            this.label4.Size = new System.Drawing.Size(49, 17);
             this.label4.TabIndex = 32;
             this.label4.Text = "UserId";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(51, 114);
+            this.label5.Location = new System.Drawing.Point(68, 140);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(28, 13);
+            this.label5.Size = new System.Drawing.Size(35, 17);
             this.label5.TabIndex = 33;
             this.label5.Text = "CSV";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(197, 38);
+            this.label6.Location = new System.Drawing.Point(263, 47);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(31, 13);
+            this.label6.Size = new System.Drawing.Size(40, 17);
             this.label6.TabIndex = 34;
             this.label6.Text = "Logo";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(197, 64);
+            this.label7.Location = new System.Drawing.Point(263, 79);
+            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 13);
+            this.label7.Size = new System.Drawing.Size(41, 17);
             this.label7.TabIndex = 35;
             this.label7.Text = "Code";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(197, 89);
+            this.label8.Location = new System.Drawing.Point(263, 110);
+            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(35, 13);
+            this.label8.Size = new System.Drawing.Size(45, 17);
             this.label8.TabIndex = 36;
             this.label8.Text = "Name";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(191, 114);
+            this.label9.Location = new System.Drawing.Point(255, 140);
+            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(38, 13);
+            this.label9.Size = new System.Drawing.Size(49, 17);
             this.label9.TabIndex = 37;
             this.label9.Text = "Phone";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(314, 38);
+            this.label10.Location = new System.Drawing.Point(419, 47);
+            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(26, 13);
+            this.label10.Size = new System.Drawing.Size(33, 17);
             this.label10.TabIndex = 38;
             this.label10.Text = "Mail";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(309, 66);
+            this.label11.Location = new System.Drawing.Point(412, 81);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(74, 13);
+            this.label11.Size = new System.Drawing.Size(98, 17);
             this.label11.TabIndex = 39;
             this.label11.Text = "EnableSystem";
             // 
             // BUTTON_UpdateInsurer
             // 
-            this.BUTTON_UpdateInsurer.Location = new System.Drawing.Point(571, 137);
+            this.BUTTON_UpdateInsurer.Location = new System.Drawing.Point(761, 169);
+            this.BUTTON_UpdateInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateInsurer.Name = "BUTTON_UpdateInsurer";
-            this.BUTTON_UpdateInsurer.Size = new System.Drawing.Size(87, 23);
+            this.BUTTON_UpdateInsurer.Size = new System.Drawing.Size(116, 28);
             this.BUTTON_UpdateInsurer.TabIndex = 40;
             this.BUTTON_UpdateInsurer.Text = "Update Insurer";
             this.BUTTON_UpdateInsurer.UseVisualStyleBackColor = true;
@@ -323,9 +358,10 @@
             // 
             // BUTTON_UpdateViewInsurer
             // 
-            this.BUTTON_UpdateViewInsurer.Location = new System.Drawing.Point(657, 137);
+            this.BUTTON_UpdateViewInsurer.Location = new System.Drawing.Point(876, 169);
+            this.BUTTON_UpdateViewInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateViewInsurer.Name = "BUTTON_UpdateViewInsurer";
-            this.BUTTON_UpdateViewInsurer.Size = new System.Drawing.Size(75, 23);
+            this.BUTTON_UpdateViewInsurer.Size = new System.Drawing.Size(100, 28);
             this.BUTTON_UpdateViewInsurer.TabIndex = 41;
             this.BUTTON_UpdateViewInsurer.Text = "UpdateViewInsurer";
             this.BUTTON_UpdateViewInsurer.UseVisualStyleBackColor = true;
@@ -333,9 +369,10 @@
             // 
             // BUTTON_UpdateCsvInsurer
             // 
-            this.BUTTON_UpdateCsvInsurer.Location = new System.Drawing.Point(731, 137);
+            this.BUTTON_UpdateCsvInsurer.Location = new System.Drawing.Point(975, 169);
+            this.BUTTON_UpdateCsvInsurer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BUTTON_UpdateCsvInsurer.Name = "BUTTON_UpdateCsvInsurer";
-            this.BUTTON_UpdateCsvInsurer.Size = new System.Drawing.Size(75, 23);
+            this.BUTTON_UpdateCsvInsurer.Size = new System.Drawing.Size(100, 28);
             this.BUTTON_UpdateCsvInsurer.TabIndex = 42;
             this.BUTTON_UpdateCsvInsurer.Text = "Update Csv";
             this.BUTTON_UpdateCsvInsurer.UseVisualStyleBackColor = true;
@@ -343,9 +380,9 @@
             // 
             // FORM_Insurers
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(865, 366);
+            this.ClientSize = new System.Drawing.Size(1153, 450);
             this.Controls.Add(this.BUTTON_UpdateCsvInsurer);
             this.Controls.Add(this.BUTTON_UpdateViewInsurer);
             this.Controls.Add(this.BUTTON_UpdateInsurer);
@@ -378,6 +415,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.TEXTBOX_ConnectionString);
             this.Controls.Add(this.BOTON_QueryInsurer);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FORM_Insurers";
             this.Text = "FORM_Insurers";
             ((System.ComponentModel.ISupportInitialize)(this.DATAGRID_Query)).EndInit();
