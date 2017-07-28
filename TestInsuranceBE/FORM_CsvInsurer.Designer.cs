@@ -76,9 +76,9 @@
             // 
             // BOTON_VerCSVText
             // 
-            this.BOTON_VerCSVText.Location = new System.Drawing.Point(14, 51);
+            this.BOTON_VerCSVText.Location = new System.Drawing.Point(14, 61);
             this.BOTON_VerCSVText.Name = "BOTON_VerCSVText";
-            this.BOTON_VerCSVText.Size = new System.Drawing.Size(75, 33);
+            this.BOTON_VerCSVText.Size = new System.Drawing.Size(75, 23);
             this.BOTON_VerCSVText.TabIndex = 4;
             this.BOTON_VerCSVText.Text = "Ver CSV Tetxo";
             this.BOTON_VerCSVText.UseVisualStyleBackColor = true;
@@ -96,6 +96,7 @@
             this.Controls.Add(this.DATAGRID_CSV);
             this.Name = "FORM_CsvInsurer";
             this.Text = "FORM_CsvInsurer";
+            this.Load += new System.EventHandler(this.FORM_CsvInsurer_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DATAGRID_CSV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -12,9 +12,16 @@ namespace TestInsuranceBE
 {
     public partial class FORM_ViewCSVText : Form
     {
+        public string textCSV = "";
+
         public FORM_ViewCSVText()
         {
             InitializeComponent();
+        }
+
+        private void FORM_ViewCSVText_Load(object sender, EventArgs e)
+        {
+            TEXTBOX_CSV.Text = textCSV;
         }
     }
 }

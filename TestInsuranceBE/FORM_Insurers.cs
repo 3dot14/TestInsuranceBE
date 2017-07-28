@@ -112,7 +112,7 @@ namespace TestInsuranceBE
         {
             DataTable Dt = new DataTable();
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.UpdateViewInsurer(int.Parse(TEXTBOX_InsurerId.Text), int.Parse(TEXTBOX_EnableSystem.Text), (int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text),Dt);
+            insurer.UpdateViewInsurer(int.Parse(TEXTBOX_InsurerId.Text), int.Parse(TEXTBOX_EnableSystem.Text), (int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text));
 
         }
 
@@ -159,7 +159,7 @@ namespace TestInsuranceBE
             row["Giro"] = "Sol";
             row["Mensaje"] = "Alguno";
             Dt.Rows.Add(row);
-            insurer.UpdateCsvInsurer( (int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Dt);
+            insurer.UpdateCsvInsurer( (int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text));
 
 
         }
