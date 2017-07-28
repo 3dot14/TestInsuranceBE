@@ -33,13 +33,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CoreBE, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\CoreBE.dll</HintPath>
+    <Reference Include="CoreBE">
+      <HintPath>..\..\..\..\Users\WINDOWS10-PC\Desktop\Insurance-Container\20-07-2017\InsuranceBE_20-07-2017\InsuranceBE\bin\Debug\CoreBE.dll</HintPath>
     </Reference>
     <Reference Include="InsuranceBE, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\Desktop\Insurance-Container\20-07-2017\InsuranceBE_20-07-2017\InsuranceBE\bin\Debug\InsuranceBE.dll</HintPath>
+      <HintPath>..\..\InsuranceBE\InsuranceBE\bin\Debug\InsuranceBE.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

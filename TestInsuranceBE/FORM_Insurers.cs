@@ -42,39 +42,10 @@ namespace TestInsuranceBE
 
         private void BUTTON_InsertCsvInsurer_Click(object sender, EventArgs e)
         {
-            DataTable Dt = new DataTable();
-            System.Type typeInt32 =
-        System.Type.GetType("System.Int32");
 
-			DataColumn Column = new DataColumn();
-
-			Dt.Columns.Add("DESCRIPCION");
-            Dt.Columns.Add("LME");
-            Dt.Columns.Add("MAX_MOUNT");
-            Dt.Columns.Add("Cond", typeInt32);
-            Dt.Columns.Add("[SA_Maxima]");
-            Dt.Columns.Add("Gpo de Giro",typeInt32);
-            Dt.Columns.Add("Giro");
-            Dt.Columns.Add("MENSAJE");
-
-            DataRow row = Dt.NewRow();
-
-            row["DESCRIPCION"] ="PruebaCil";
-            row["LME"] ="tres";
-            row["MAX_MOUNT"] ="CUATRO";
-            row["Cond"] = 50;
-            row["[SA_Maxima]"] ="text";
-            row["Gpo de Giro"] = 2;
-            row["Giro"] ="Solutions";
-            row["Mensaje"] ="Ninguno";
-            Dt.Rows.Add(row);
-
-     
-      
-			Dt.AcceptChanges();
 
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.InsertCsvInsurer( (int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), Dt );
+            insurer.InsertCsvInsurer( (int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), TEXTBOX_Description.Text,TEXTBOX_Cond.Text,TEXTBOX_MaxMount.Text,TEXTBOX_GpoGiro.Text,TEXTBOX_Giro.Text, TEXTBOX_SA_Max.Text,TEXTBOX_Mensaje.Text );
         }
 
         private void BUTTON_InsertInsurer_Click(object sender, EventArgs e)
@@ -125,7 +96,7 @@ namespace TestInsuranceBE
             Dt.Rows.Add(row);
 
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.InsertViewInsurer((int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text),Dt);
+            insurer.InsertViewInsurer((int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text));
 
 
         }
@@ -193,5 +164,10 @@ namespace TestInsuranceBE
 
 
         }
-    }
+
+		private void FORM_Insurers_Load(object sender, EventArgs e)
+		{
+
+		}
+	}
 }
