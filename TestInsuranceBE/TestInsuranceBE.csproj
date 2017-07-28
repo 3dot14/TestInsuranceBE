@@ -53,6 +53,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FORM_ViewCSVText.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_ViewCSVText.Designer.cs">
+      <DependentUpon>FORM_ViewCSVText.cs</DependentUpon>
+    </Compile>
     <Compile Include="FORM_Associates.cs">
       <SubType>Form</SubType>
     </Compile>

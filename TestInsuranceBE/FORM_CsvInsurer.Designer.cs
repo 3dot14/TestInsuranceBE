@@ -28,32 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.DATAGRID_CSV = new System.Windows.Forms.DataGridView();
             this.BOTON_Agregar = new System.Windows.Forms.Button();
             this.BOTON_CargarCSV = new System.Windows.Forms.Button();
             this.TEXTBOX_RutaCSV = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.BOTON_VerCSVText = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.DATAGRID_CSV)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // DATAGRID_CSV
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(14, 123);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.Size = new System.Drawing.Size(673, 220);
-            this.dataGridView1.TabIndex = 0;
+            this.DATAGRID_CSV.AllowUserToAddRows = false;
+            this.DATAGRID_CSV.AllowUserToDeleteRows = false;
+            this.DATAGRID_CSV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DATAGRID_CSV.Location = new System.Drawing.Point(14, 123);
+            this.DATAGRID_CSV.Name = "DATAGRID_CSV";
+            this.DATAGRID_CSV.ReadOnly = true;
+            this.DATAGRID_CSV.Size = new System.Drawing.Size(673, 220);
+            this.DATAGRID_CSV.TabIndex = 0;
             // 
             // BOTON_Agregar
             // 
-            this.BOTON_Agregar.Location = new System.Drawing.Point(604, 37);
+            this.BOTON_Agregar.Location = new System.Drawing.Point(595, 12);
             this.BOTON_Agregar.Name = "BOTON_Agregar";
             this.BOTON_Agregar.Size = new System.Drawing.Size(75, 33);
             this.BOTON_Agregar.TabIndex = 1;
             this.BOTON_Agregar.Text = "Agregar";
             this.BOTON_Agregar.UseVisualStyleBackColor = true;
+            this.BOTON_Agregar.Click += new System.EventHandler(this.BOTON_Agregar_Click);
             // 
             // BOTON_CargarCSV
             // 
@@ -72,18 +74,29 @@
             this.TEXTBOX_RutaCSV.Size = new System.Drawing.Size(484, 20);
             this.TEXTBOX_RutaCSV.TabIndex = 3;
             // 
+            // BOTON_VerCSVText
+            // 
+            this.BOTON_VerCSVText.Location = new System.Drawing.Point(14, 51);
+            this.BOTON_VerCSVText.Name = "BOTON_VerCSVText";
+            this.BOTON_VerCSVText.Size = new System.Drawing.Size(75, 33);
+            this.BOTON_VerCSVText.TabIndex = 4;
+            this.BOTON_VerCSVText.Text = "Ver CSV Tetxo";
+            this.BOTON_VerCSVText.UseVisualStyleBackColor = true;
+            this.BOTON_VerCSVText.Click += new System.EventHandler(this.BOTON_VerCSVText_Click);
+            // 
             // FORM_CsvInsurer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(699, 355);
+            this.Controls.Add(this.BOTON_VerCSVText);
             this.Controls.Add(this.TEXTBOX_RutaCSV);
             this.Controls.Add(this.BOTON_CargarCSV);
             this.Controls.Add(this.BOTON_Agregar);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.DATAGRID_CSV);
             this.Name = "FORM_CsvInsurer";
             this.Text = "FORM_CsvInsurer";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DATAGRID_CSV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -91,9 +104,10 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView DATAGRID_CSV;
         private System.Windows.Forms.Button BOTON_Agregar;
         private System.Windows.Forms.Button BOTON_CargarCSV;
         private System.Windows.Forms.TextBox TEXTBOX_RutaCSV;
+        private System.Windows.Forms.Button BOTON_VerCSVText;
     }
 }

@@ -43,15 +43,14 @@ namespace TestInsuranceBE
         private void BUTTON_InsertCsvInsurer_Click(object sender, EventArgs e)
         {
 
-
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.InsertCsvInsurer( (int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), TEXTBOX_Description.Text,TEXTBOX_Cond.Text,TEXTBOX_MaxMount.Text,TEXTBOX_GpoGiro.Text,TEXTBOX_Giro.Text, TEXTBOX_SA_Max.Text,TEXTBOX_Mensaje.Text );
+           int result= insurer.InsertCsvInsurer((int.Parse(TEXTBOX_userId.Text)),(int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, int.Parse(TEXTBOX_InsurerId.Text), TEXTBOX_Description.Text,TEXTBOX_Cond.Text,TEXTBOX_MaxMount.Text,TEXTBOX_GpoGiro.Text,TEXTBOX_Giro.Text, TEXTBOX_SA_Max.Text,TEXTBOX_Mensaje.Text);
         }
 
         private void BUTTON_InsertInsurer_Click(object sender, EventArgs e)
         {
             InsuranceBE.Insurers insurer = new InsuranceBE.Insurers();
-            insurer.InsertInsurer((int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text));
+           int result= insurer.InsertInsurer((int.Parse(TEXTBOX_userId.Text)), (int.Parse(TEXTBOX_appId.Text)), TEXTBOX_ConnectionString.Text, TEXTBOX_Code.Text, TEXTBOX_Name.Text, TEXTBOX_Phone.Text, TEXTBOX_Mail.Text, Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text), Encoding.ASCII.GetBytes(TEXTBOX_Csv.Text));
         }
 
         private void BUTTON_InsertViewInsurer_Click(object sender, EventArgs e)
